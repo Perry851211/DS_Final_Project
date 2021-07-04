@@ -1,0 +1,11 @@
+Perry Monday 9 A 3
+Adam Tuesday 10 B 2
+Terry Wednesday 12 C 4
+Job Monday 12 D 2
+John Friday 12 E 3
+Eric Wednesday 10 A 5
+Yoga Thursday 9 B 2
+Ricky Thursday 12 C 3
+Christine Tuesday 9 D 5
+Michelle Monday 10 E 2
+Ryan Friday 10 A 4
