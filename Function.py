@@ -32,13 +32,13 @@ def modifyBooking(name, day, time, r_objs, b_objs):
         if b.name == name and b.day == day and b.time == time:
             # modify booking object, we assume customer would only reduce the number
             print(b.name, " ", b.day, " ", b.time, ":00 ", b.num)
-            num = input("Change the number of people:")
+            num = int(input("Change the number of people:"))
             diff = num - b.num
             b.num = num
             # remove restaurant record by matching the restaurant name
             for r in r_objs:
                 if r.restName == b.restName:
-                    r.book[(b.day, b.time)] += diff    
+                    r.book[(b.day, b.time)] -= diff    
             print("Modification Successful!")
             return
     print("Modification Fail!")

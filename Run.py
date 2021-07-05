@@ -37,7 +37,7 @@ with open(input_path, 'r', newline='') as file_in:
         # input booking information
         b.name = value_list[0]
         b_name.append(b.name)
-        b.day = value_list[1]  
+        b.day = value_list[1]
         b.time = value_list[2]
         b.restName = value_list[3]
         b.num = int(value_list[4])
